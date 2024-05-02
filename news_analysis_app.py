@@ -2,9 +2,7 @@ import datetime
 import gradio as gr
 import pandas as pd
 import yfinance as yf
-import seaborn as sns;
-
-sns.set()
+import seaborn as sns;sns.set()
 import matplotlib.pyplot as plt
 import plotly.graph_objects as go
 
@@ -122,7 +120,5 @@ with demo:
 
 
     d2.input(get_stock_graph, [d1, d2], out)
-    # button_index.click(get_stocks_from_index, inputs=[dropdown_index], outputs=[dropdown_stocks])
-    # button_stocks.click(get_stock_news, inputs=[dropdown_stocks], outputs=out)
 
 demo.launch()

@@ -1,0 +1,8 @@
+pandas
+plotly
+newsapi
+seaborn
+yfinance
+matplotlib
+statsmodels
+pytickersymbols
